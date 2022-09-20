@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #dad7cd;
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin: auto;
+}
+
+body {
+    font: normal 50px verdana, sans-serif;
+}
+footer {
+    font-family: sans-serif, helvetica, trebuchet;
+    font-size: 12px;
+}
+#subtitle {
+    font-family: verdana, monospace;
+    font-size: 20px;
+}
+#BeginClock {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0 , 5);
+}
+#BeginClock:hover {
+    background-color: #aaa8a0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
