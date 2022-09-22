@@ -8,14 +8,25 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="container">
-      <h1 class= "logo">Clock</h1>
-      <p id="subtitle">A minimalistic digital clock. That's it.</p>
+    <div class="hero">
+        <nav>
+            <!--<img src="media/logo1.png" class="logo">-->
+            <ul>
+                <!-- <li><a href="#">Analogical</a></li>-->
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+          <h1>Clock</h1>
+          <p>Minimal Digital Clock</p>
+          <a href="#">Start</a>
+        </div>
     </div>
-    <br>
-    <button id="BeginClock">START</button>
-      <div class="Digital-Clock">
+     <!-- This is under review.
+       <div class="Digital-Clock">
         <div class="date">
+          
+
           <span id="dayName">Day</span>,
           <span id="dayNumber">00</span>
           <span id="month">Month</span>,
@@ -25,13 +36,21 @@
           <span id="minutes">00</span>:
           <span id="seconds">00</span>
           <span id="daySession">AM</span>.
+          -->
       </div>
-    <script src="index.js"></script>
-    <footer>&copy Isaac Amortegui, 2022
-      <br>
-    <a href="https://github.com/IsaacAmorteg">GitHub</a>
-    <a href="https://www.linkedin.com/in/isaac-amortegui-93b41ba4">LinkedIn</a>
-    <a href="isaacamortegc@outlook.com">E-mail</a>
-  </footer>
+    <footer>
+      <div class="footerContent">
+        <h3>Clock Web App</h3>
+        <ul>
+          <li><a href="https://github.com/IsaacAmorteg">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/isaac-amortegui-93b41ba4">LinkedIn</a></li>
+          <li><a href="isaacamortegc@outlook.com">E-mail</a></li>
+        </ul>
+      </div>
+      <div class="footerBottom">
+        <p>&copy Isaac Amortegui, 2022. Designed by <span>Isaac Amortegui</span></p>
+      </div>
+    </footer>  
+  <script src="index.js"></script>
   </body>
 </html>
