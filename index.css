@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    max-width: 1400px;
+    max-height: 1400px;
 }
 
 .hero {
@@ -17,6 +17,7 @@
     flex-direction: column;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5))
     ,url("media/hero.gif");
+    background-size: cover;
 }
 nav {
     width: 100%;
@@ -56,12 +57,11 @@ body {
     font: normal 50px 'Poppins', sans-serif;   
 }
 
-.logo {
-    font-family: verdana, monospace;
-    font-size: 100px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+.reloj {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 60px;
 }
 .content {
     text-align: center;
@@ -101,43 +101,7 @@ body {
     transform: scale(1.1);
 }
 
-/* When using button to Start
-
-#BeginClock {
-    font-size: 50px;
-    background-color:#f4f4f4;
-    color: #0c0a0a;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    border: 2px solid rgb(0, 0, 0 , 5);
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    -webkit-transform-property: box-shadow, transform;
-}
-#BeginClock:hover, #BeginClock:focus, #BeginClock:active {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    background-color: #aaa8a0;
-}
-.Digital-Clock {
-    font-size: 50px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-*/
 .container {
-    max-width: 1400px;
     margin: auto;
 }
 
