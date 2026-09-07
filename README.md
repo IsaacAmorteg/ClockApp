@@ -1,1 +1,1 @@
-Digital Clock WebApp by Isaac Amortegui.
+Digital Clock WebApp by Isaac Amortegui..
